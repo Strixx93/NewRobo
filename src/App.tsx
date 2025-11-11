@@ -62,7 +62,7 @@ const imageLogos = [
 function App() {
 
   useEffect(() => {
-    const mobileBreakpoint = 900;
+    const mobileBreakpoint = 1000;
 
     const mobileLink = 'https://strixx93.github.io/StarMobile/';
 
@@ -403,7 +403,7 @@ function App() {
         </div>
         <div className='w-full h-20 bg-transparent relative z-10'></div>
         <div className='w-full h-5 bg-transparent relative z-10'></div>
-        <div className='w-full h-20 bg-transparent flex justify-center items-center text-white/70 relative z-10'>
+        <div className='w-full mt-20 h-20 bg-transparent flex justify-center items-center text-white/70 relative z-10'>
           <p className='text-4xl tracking-widest'>Presented To You By</p>
         </div>
         <div className='w-full h-20 bg-transparent flex justify-center items-center text-white relative z-10'>
@@ -441,7 +441,7 @@ function App() {
           <p className='text-zinc-300 text-2xl'>Bogdan Bragar</p>
           <p className='text-zinc-400 text-2xl'>--Assembly--</p>
         </div>
-        <div className='w-full h-40 mt-20 bg-transparent flex flex-row justify-center items-center relative z-10'>
+        <div className='w-full h-full h-40 mt-20 bg-transparent flex flex-row justify-center items-center relative z-10'>
           <img className="w-60 m-10" src={leul} alt="" />
           <img className="w-60 m-10" src={mercur} alt="" />
         </div>
