@@ -62,7 +62,7 @@ const imageLogos = [
 function App() {
 
   useEffect(() => {
-    const mobileBreakpoint = 768;
+    const mobileBreakpoint = 900;
 
     const mobileLink = 'https://strixx93.github.io/StarMobile/';
 
