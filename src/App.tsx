@@ -4,7 +4,6 @@ import ftc from  './assets/ftc.svg'
 import spon from './assets/spon.svg'
 import TextType from './TextType';
 import PixelBlast from './lecomponents/PixelBlast';
-import team from './assets/team.jpeg'
 import roboter from './assets/roboter.png'
 import decode from './assets/decode.png'
 import DecryptedText from './lecomponents/DecryptedText';
@@ -13,8 +12,6 @@ import AnimatedContent from './lecomponents/AnimatedContent/AnimatedContent';
 import LogoLoop from './lecomponents/LogoLoop/LogoLoop';
 import leul from './assets/leul0.png'
 import mercur from './assets/mercur.png'
-import robot from './assets/robot.jpeg'
-import logohaw from './assets/logohaw.png'
 import team2 from './assets/team2.jpeg'
 import { useEffect } from 'react';
 
