@@ -13,6 +13,9 @@ import AnimatedContent from './lecomponents/AnimatedContent/AnimatedContent';
 import LogoLoop from './lecomponents/LogoLoop/LogoLoop';
 import leul from './assets/leul0.png'
 import mercur from './assets/mercur.png'
+import robot from './assets/robot.jpeg'
+import logohaw from './assets/logohaw.png'
+import team2 from './assets/team2.jpeg'
 import { useEffect } from 'react';
 
 
@@ -81,12 +84,12 @@ function App() {
             <p className='text-xl mx-4'>Star B1T0 Robotics</p>
           </div>
           <div className='bg-transparent flex w-full h-full justify-center items-center'>
-            <button className='bg-linear-to-r from-violet-900 via-indigo-800 to-indigo-700 py-2 px-4 rounded-full'>Donate</button>
+            <a href="https://www.paypal.com/donate/?hosted_button_id=S35PL35MXSEDN" className='bg-linear-to-r from-violet-900 via-indigo-800 to-indigo-700 py-2 px-4 rounded-full'>Donate</a>
           </div>
           <div className='bg-transparent flex w-full h-full justify-end items-center'>
-            <button className='bg-zinc-900 py-2 px-4 mx-2 rounded-full'>Home</button>
-            <button className='bg-zinc-900 py-2 px-4 mx-2 rounded-full'>Resources</button>
-            <button className='bg-zinc-900 py-2 px-4 mx-2 rounded-full'>Contact</button>
+            <a href="https://strixx93.github.io/NewRobo/" className='bg-zinc-900 py-2 px-4 mx-2 rounded-full'>Home</a>
+            <a href="https://github.com/starb1t0robotics-max" className='bg-zinc-900 py-2 px-4 rounded-full'>Resources</a>
+            <a href="https://linktr.ee/B1T0_Robotics?utm_source=linktree_profile_share&ltsid=f297f943-164a-4789-b35d-62fe737f8af0" className='bg-zinc-900 py-2 px-4 mx-2 rounded-full'>Contact</a>
           </div>
         </div>
       </div>
@@ -216,18 +219,18 @@ function App() {
             </AnimatedContent>
             <div className='w-full h-full mxl:h-80 txl:h-90 qxl:h-94 flex-col pr-2 pb-2 flex justify-start items-start bg-gradient-to-t from-violet-900 to-zinc-950 rounded-br-xl rounded-bl-xl rounded-tr-xl'>
             <div className='w-full h-full mxl:h-78 txl:h-88 qxl:h-92 bg-dark flex flex-row flex-wrap justify-start items-start rounded-br-xl rounded-bl-xl p-1'>
-              <div className='w-full h-full mxl:h-76 txl:h-86 qxl:h-90 bg-linear-to-r from-zinc-900/40 via-violet-900/40 to-indigo-900/40 rounded-xl flex-1 m-1 backdrop-blur-sm
-              hover:scale-150 hover:translate-x-20 hover:bg-red-200/10 hover:z-50 duration-600'></div>
-              <div className='w-full h-full bg-linear-to-r from-zinc-900/40 via-violet-900/40 to-indigo-900/40 rounded-xl rounded-xl flex-1 m-1 backdrop-blur-sm
+              <div className='w-full h-full p-10 bg-linear-to-r from-zinc-900/40 via-violet-900/40 to-indigo-900/40 rounded-xl rounded-xl flex-1 m-1 backdrop-blur-sm
+              hover:scale-150 hover:bg-[url(https://strixx93.github.io/StarMobile/assets/robot-Bsrn8KhJ.jpeg)] hover:bg-contain hover:bg-no-repeat hover:bg-origin-border hover:z-50 duration-600'></div>
+              <div className='w-full p-10 h-full bg-linear-to-r from-zinc-900/40 via-violet-900/40 to-indigo-900/40 rounded-xl rounded-xl flex-1 m-1 backdrop-blur-sm
               hover:scale-150 hover:bg-[url(https://strixx93.github.io/StarMobile/assets/team-CiY9y1r8.jpeg)] hover:bg-contain hover:bg-no-repeat hover:bg-origin-border hover:z-50 duration-600'></div>
-              <div className='w-full h-full bg-linear-to-r from-zinc-900/40 via-violet-900/40 to-indigo-900/40 rounded-xl rounded-xl flex-1 m-1 backdrop-blur-sm
-              hover:scale-150 hover:-translate-x-20 hover:bg-red-200/10 hover:z-50 duration-600'></div>
+              <div className='w-full p-10 h-full bg-linear-to-r from-zinc-900/40 via-violet-900/40 to-indigo-900/40 rounded-xl rounded-xl flex-1 m-1 backdrop-blur-sm
+              hover:scale-150 hover:bg-[url(https://i.ibb.co/Rk4HnW85/wepwep.jpg)] hover:bg-contain hover:bg-no-repeat hover:bg-origin-border hover:z-50 duration-600'></div>
             </div>
             </div>
           </div>
           <div className='bg-transparent w-full h-full flex justify-center items-center'>
             <FadeContent blur={true} duration={1000} easing="ease-out" initialOpacity={0}>
-                <img className='w-200 rounded-4xl border-violet-900 border-r-10 border-b-10' src={team} alt="" />
+                <img className='w-200 rounded-4xl border-violet-900 border-r-10 border-b-10' src={team2} alt="" />
             </FadeContent>
           </div>
         </div>
@@ -327,13 +330,16 @@ function App() {
             <div className='w-full h-full bg-transparent flex flex-col justify-center items-center'>
               <div className='w-full h-full bg-transparent flex justify-center items-start pl-20 pr-20'>
             <div className='w-full h-100 p-2 flex shrink bg-gradient-to-b from-violet-700 to-zinc-950 justify-center items-center rounded-4xl'>
-              <div className='w-full h-full p-4 bg-dark flex justify-start items-start rounded-4xl'>
+              <div className='w-full h-full p-4 bg-dark flex flex-col justify-start items-start rounded-4xl'>
                 <p className='text-white text-xl tracking-wide'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Our Design Team is using Fusion 360 as their workhorse, a profesional 3D CAD software enabling us to
+                   deliver precision in each of our robots systems design. The teams lead designer, Bogdan, is well
+                    experienced in this domain,
+                   being a passionate 3D modeler and having achieved amazing results in his personal projects. 
                 </p>
+                <div className='h-full w-full bg-transparent flex justify-center items-center'>
+                  <img className='w-20' src="https://upload.wikimedia.org/wikipedia/commons/d/db/Fusion360_Logo.svg" alt="" />
+                </div>
               </div>
             </div>
           </div>
@@ -348,10 +354,10 @@ function App() {
             <div className='w-full h-100 p-2 flex shrink bg-gradient-to-t from-violet-700 to-zinc-950 justify-center items-center rounded-4xl'>
               <div className='w-full h-full p-4 bg-dark flex flex-col justify-start items-center rounded-4xl'>
                 <p className='text-white text-xl tracking-wide'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Our Programming team works hard on embeded systems as the robot and web development using
+                   latest tech soulutions and making sure every code source meets professional criteria.
+                    The programming teams lead, Pavel, is more of a problem solver rather than just a programmer.
+                   From design and aesthetics to the efficency of algorithms, he makes sure everything is up to standard.
                 </p>
                 <div className='h-full w-200 mt-15'>
             <LogoLoop className=''
